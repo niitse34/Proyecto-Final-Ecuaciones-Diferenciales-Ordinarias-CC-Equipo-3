@@ -1,0 +1,9 @@
+# Normaliza saltos de línea y marca los binarios
+* text=auto eol=lf
+
+*.png  binary
+*.jpg  binary
+*.pdf  binary
+*.docx binary
+*.pptx binary
+*.xlsx binary
