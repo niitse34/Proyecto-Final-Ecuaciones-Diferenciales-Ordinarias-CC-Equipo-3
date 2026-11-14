@@ -5,7 +5,7 @@ Modelo de coevolución entre la calidad del contenido y la selectividad de la au
 adaptado al formato del curso: derivación, solución analítica, análisis cualitativo,
 simulación numérica e interpretación.
 
-Repositorio del equipo de 8 · Ciencias de la Computación · EDO.
+Repositorio del equipo 3 · Ciencias de la Computación · Ecuaciones Diferenciales Ordinarias.
 
 ## Estructura
 
@@ -37,20 +37,11 @@ python tools/figs.py                 # regenera figuras/*.png
 python -m pytest -q                  # verifica los resultados del Anexo A
 ```
 
-## Cómo trabajamos
-
-- `main` siempre pasa los tests. **Nadie hace push directo a `main`.**
-- Una rama por tarea: `feat/seccion3-bifurcaciones`, `fix/cuenca-colapso`, `docs/discusion`.
-- Commits con prefijo: `feat:`, `fix:`, `docs:`, `fig:`, `test:`, `chore:`.
-- Todo cambio entra por **Pull Request** con una revisión de alguien de otro bloque y CI en verde.
-- Las figuras se **regeneran con el script**; no se editan a mano.
-- Cada archivo de `docs/secciones/` tiene un único responsable (tabla de abajo).
-
 ## Reparto
 
 | # | Rol | GitHub | Archivos principales |
 |---|-----|--------|----------------------|
-| 1 | Coordinación e integración | `@usuario1` | `README.md`, `docs/secciones/00_resumen.md`, `entregables/` |
+| 1 | Coordinación e integración | `@niitse34` | `README.md`, `docs/secciones/00_resumen.md`, `entregables/` |
 | 2 | Modelado A — oferta | `@usuario2` | `docs/secciones/02_modelo.md` (pagos H/L), `replicador_atencion.py` |
 | 3 | Modelado B — demanda | `@usuario3` | `docs/secciones/02_modelo.md` (pagos A/P), `replicador_atencion.py` |
 | 4 | Análisis A — equilibrios | `@usuario4` | `docs/secciones/03_analisis_cualitativo.md` (equilibrios) |
@@ -59,7 +50,7 @@ python -m pytest -q                  # verifica los resultados del Anexo A
 | 7 | Numérico B — barridos | `@usuario7` | `tools/`, `tests/`, demo en vivo |
 | 8 | Edición y exposición | `@usuario8` | `presentacion/`, `docs/secciones/05_discusion.md`, estilo |
 
-Detalle de responsabilidades, suplentes y matriz RACI en [`equipo/reparto.md`](equipo/reparto.md).
+Detalle de responsabilidades en [`equipo/reparto.md`](equipo/reparto.md).
 
 ## Estado
 
