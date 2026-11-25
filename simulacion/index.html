@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calidad y atención · simulación de agentes</title>
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<div id="escena">
+<header id="barra">
+  <div class="marca">
+    <span class="tit">Calidad y atención</span>
+    <span class="sub">una plataforma simulada, agente por agente, frente a lo que predicen las EDO</span>
+  </div>
+  <nav id="vistas"><button id="vSim" class="on">simulación</button><button id="vInf">lo que la teoría no ve</button></nav>
+  <nav id="escenarios" aria-label="Escenarios"></nav>
+  <div class="mandos">
+    <button id="bPlay" title="Reproducir o pausar (espacio)">pausar</button>
+    <button id="bPaso" title="Avanzar una ronda (→)">una ronda</button>
+    <button id="bLento" title="Cámara lenta (L)">cámara lenta</button>
+    <button id="bReset" title="Reiniciar (R)">reiniciar</button>
+    <label class="vel">velocidad <input id="vel" type="range" min="0" max="100" value="45"></label>
+    <button id="bAjustes" title="Parámetros y factores de realismo (P)">parámetros</button>
+  </div>
+</header>
+
+<div id="factores" aria-label="Factores que la teoría no ve"></div>
+
+<main id="lienzo">
+  <section id="izq">
+    <canvas id="cPlataforma"></canvas>
+    <div id="leyendaPlat">
+      <div><i class="sw h"></i>productor que se esfuerza <span class="dim">(publica calidad)</span></div>
+      <div><i class="sw l"></i>productor que no se esfuerza</div>
+      <div><i class="dot a"></i>consumidor activo <span class="dim">(busca la calidad)</span></div>
+      <div><i class="dot p"></i>consumidor pasivo <span class="dim">(lee al azar)</span></div>
+      <div><i class="ray"></i>cada rayo es una lectura: una vista que el productor cobra</div>
+      <div id="leyPasion" hidden><i class="dot v"></i>productor por vocación <span class="dim">(su pasión supera el costo de esforzarse: nunca abandona)</span></div>
+    </div>
+    <div id="pobl"></div>
+    <div id="cifras">
+      <div class="c"><b id="cx">—</b><span>de los productores se esfuerzan <em>x</em></span></div>
+      <div class="c"><b id="cy">—</b><span>de los consumidores buscan calidad <em>y</em></span></div>
+      <div class="c peq"><b id="cronda">0</b><span>rondas · <em>τ</em> = <i id="ctau">0</i></span></div>
+    </div>
+  </section>
+
+  <section id="der">
+    <div class="panel" id="pFase">
+      <div class="cab"><span class="t">Plano de fases</span><span class="nota">clic para soltar la población en otro punto</span></div>
+      <canvas id="cFase"></canvas>
+      <div class="ley"><span class="lt"></span>predicción de las EDO desde el punto de partida <span class="lc"></span>dónde dice la teoría que deberían estar ahora <span class="la"></span>lo que hacen los agentes</div>
+    </div>
+    <div class="panel" id="pSerie">
+      <div class="cab"><span class="t">En el tiempo</span><span class="nota">línea fina: teoría · línea gruesa: agentes</span></div>
+      <canvas id="cSerie"></canvas>
+    </div>
+    <div class="panel" id="pBalance">
+      <div class="cab"><span class="t">Balance de la última ronda</span><span class="nota">ganancia media por estrategia</span></div>
+      <div id="balance"></div>
+    </div>
+  </section>
+</main>
+
+<section id="informe" hidden></section>
+
+<footer id="relato"><span id="veredicto"></span><span id="texto"></span></footer>
+
+<aside id="ajustes" hidden>
+  <div class="cab"><span class="t">Parámetros</span><button id="bCerrar">cerrar</button></div>
+  <div id="controles"></div>
+  <p class="nota">Cambiar un parámetro no reinicia a los agentes: la predicción se recalcula desde el estado actual.</p>
+</aside>
+
+</div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{
+ "semillas": 8,
+ "fecha": "2026-11-24",
+ "factores": [
+  {
+   "id": "articulo",
+   "titulo": "Muy pocos consumidores activos (la coexistencia del artículo)",
+   "escenario": "articulo",
+   "nivel": "productores · consumidores",
+   "T": 15,
+   "puntos": [
+    {
+     "etiqueta": "120 · 600",
+     "valor": 120,
+     "ajustes": {
+      "productores": 120,
+      "consumidores": 600
+     },
+     "error": 0.12604257796444793,
+     "errorSd": 0.20571524481678008,
+     "absorcion": 0.875,
+     "ruidoY": 0.023615845407635002
+    },
+    {
+     "etiqueta": "240 · 1200",
+     "valor": 240,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.044441899119576786,
+     "errorSd": 0.02205021011009298,
+     "absorcion": 0.375,
+     "ruidoY": 0.023178890884179126
+    },
+    {
+     "etiqueta": "480 · 2400",
+     "valor": 480,
+     "ajustes": {
+      "productores": 480,
+      "consumidores": 2400
+     },
+     "error": 0.029911008931745153,
+     "errorSd": 0.020165192417801625,
+     "absorcion": 0.125,
+     "ruidoY": 0.018178667632876018
+    }
+   ]
+  }
+ ]
+}

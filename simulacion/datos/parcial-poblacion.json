@@ -1,0 +1,75 @@
+{
+ "semillas": 8,
+ "fecha": "2026-11-24",
+ "factores": [
+  {
+   "id": "poblacion",
+   "titulo": "Poblaciones pequeñas",
+   "escenario": "coexistencia",
+   "nivel": "productores · consumidores",
+   "T": 30,
+   "puntos": [
+    {
+     "etiqueta": "30 · 150",
+     "valor": 30,
+     "ajustes": {
+      "productores": 30,
+      "consumidores": 150
+     },
+     "error": 0.5665008041358247,
+     "errorSd": 0.17569286326889996,
+     "absorcion": 1,
+     "ruidoY": null
+    },
+    {
+     "etiqueta": "60 · 300",
+     "valor": 60,
+     "ajustes": {
+      "productores": 60,
+      "consumidores": 300
+     },
+     "error": 0.4251505605570016,
+     "errorSd": 0.30559024380799776,
+     "absorcion": 0.5,
+     "ruidoY": 0.1463498340094336
+    },
+    {
+     "etiqueta": "120 · 600",
+     "valor": 120,
+     "ajustes": {
+      "productores": 120,
+      "consumidores": 600
+     },
+     "error": 0.1892002846306261,
+     "errorSd": 0.2227090168545016,
+     "absorcion": 0.125,
+     "ruidoY": 0.08476505922888418
+    },
+    {
+     "etiqueta": "240 · 1200",
+     "valor": 240,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.0735815725132239,
+     "errorSd": 0.023815065172062125,
+     "absorcion": 0,
+     "ruidoY": 0.05798945300584471
+    },
+    {
+     "etiqueta": "480 · 2400",
+     "valor": 480,
+     "ajustes": {
+      "productores": 480,
+      "consumidores": 2400
+     },
+     "error": 0.05551186548855419,
+     "errorSd": 0.01637168311035154,
+     "absorcion": 0,
+     "ruidoY": 0.026752778139560125
+    }
+   ]
+  }
+ ]
+}

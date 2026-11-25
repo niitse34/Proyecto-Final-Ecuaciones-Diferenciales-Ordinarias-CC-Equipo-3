@@ -1,0 +1,28 @@
+{
+ "semillas": 8,
+ "fecha": "2026-11-24",
+ "factores": [],
+ "referencias": [
+  {
+   "escenario": "frontera",
+   "error": 0.004657102294263217,
+   "errorSd": 0.0007515049974295512,
+   "absorcion": 0,
+   "ruidoY": 0
+  },
+  {
+   "escenario": "colapso",
+   "error": 0.005012290897305944,
+   "errorSd": 0.0040821161520032566,
+   "absorcion": 0,
+   "ruidoY": 0
+  },
+  {
+   "escenario": "coexistencia",
+   "error": 0.0735815725132239,
+   "errorSd": 0.023815065172062125,
+   "absorcion": 0,
+   "ruidoY": 0.05798945300584471
+  }
+ ]
+}
