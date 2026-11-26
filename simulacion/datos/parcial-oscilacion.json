@@ -1,0 +1,79 @@
+{
+ "semillas": 8,
+ "fecha": "2026-11-24",
+ "factores": [
+  {
+   "id": "oscilacion",
+   "titulo": "Oscilaciones que el azar mantiene vivas",
+   "escenario": "coexistencia",
+   "nivel": "productores · consumidores",
+   "T": 40,
+   "inicio": [
+    0.7333333333333334,
+    0.3055555555555556
+   ],
+   "puntos": [
+    {
+     "etiqueta": "60 · 300",
+     "valor": 60,
+     "ajustes": {
+      "productores": 60,
+      "consumidores": 300
+     },
+     "error": 0.09524100508470464,
+     "errorSd": 0.024638842164947543,
+     "absorcion": 0,
+     "ruidoY": 0.09935966358476027
+    },
+    {
+     "etiqueta": "120 · 600",
+     "valor": 120,
+     "ajustes": {
+      "productores": 120,
+      "consumidores": 600
+     },
+     "error": 0.06000125286350025,
+     "errorSd": 0.012873123824628432,
+     "absorcion": 0,
+     "ruidoY": 0.06452320786594605
+    },
+    {
+     "etiqueta": "240 · 1200",
+     "valor": 240,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.0421001687722226,
+     "errorSd": 0.007121322039565939,
+     "absorcion": 0,
+     "ruidoY": 0.04275014598211661
+    },
+    {
+     "etiqueta": "480 · 2400",
+     "valor": 480,
+     "ajustes": {
+      "productores": 480,
+      "consumidores": 2400
+     },
+     "error": 0.022126493221595298,
+     "errorSd": 0.0043699109612299215,
+     "absorcion": 0,
+     "ruidoY": 0.021168872249579872
+    },
+    {
+     "etiqueta": "960 · 4800",
+     "valor": 960,
+     "ajustes": {
+      "productores": 960,
+      "consumidores": 4800
+     },
+     "error": 0.011128042385036181,
+     "errorSd": 0.002426598289663078,
+     "absorcion": 0,
+     "ruidoY": 0.011572141257644566
+    }
+   ]
+  }
+ ]
+}

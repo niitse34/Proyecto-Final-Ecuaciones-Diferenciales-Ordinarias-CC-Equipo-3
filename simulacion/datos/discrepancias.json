@@ -1,0 +1,778 @@
+{
+ "factores": [
+  {
+   "id": "poblacion",
+   "titulo": "Poblaciones pequeñas",
+   "escenario": "coexistencia",
+   "nivel": "productores · consumidores",
+   "T": 30,
+   "puntos": [
+    {
+     "etiqueta": "30 · 150",
+     "valor": 30,
+     "ajustes": {
+      "productores": 30,
+      "consumidores": 150
+     },
+     "error": 0.5665008041358247,
+     "errorSd": 0.17569286326889996,
+     "absorcion": 1,
+     "ruidoY": null
+    },
+    {
+     "etiqueta": "60 · 300",
+     "valor": 60,
+     "ajustes": {
+      "productores": 60,
+      "consumidores": 300
+     },
+     "error": 0.4251505605570016,
+     "errorSd": 0.30559024380799776,
+     "absorcion": 0.5,
+     "ruidoY": 0.1463498340094336
+    },
+    {
+     "etiqueta": "120 · 600",
+     "valor": 120,
+     "ajustes": {
+      "productores": 120,
+      "consumidores": 600
+     },
+     "error": 0.1892002846306261,
+     "errorSd": 0.2227090168545016,
+     "absorcion": 0.125,
+     "ruidoY": 0.08476505922888418
+    },
+    {
+     "etiqueta": "240 · 1200",
+     "valor": 240,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.0735815725132239,
+     "errorSd": 0.023815065172062125,
+     "absorcion": 0,
+     "ruidoY": 0.05798945300584471
+    },
+    {
+     "etiqueta": "480 · 2400",
+     "valor": 480,
+     "ajustes": {
+      "productores": 480,
+      "consumidores": 2400
+     },
+     "error": 0.05551186548855419,
+     "errorSd": 0.01637168311035154,
+     "absorcion": 0,
+     "ruidoY": 0.026752778139560125
+    }
+   ]
+  },
+  {
+   "id": "memoria",
+   "titulo": "Información con retraso",
+   "escenario": "coexistencia",
+   "nivel": "rondas de memoria",
+   "T": 30,
+   "puntos": [
+    {
+     "etiqueta": "1",
+     "valor": 1,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 1
+     },
+     "error": 0.0735815725132239,
+     "errorSd": 0.023815065172062125,
+     "absorcion": 0,
+     "ruidoY": 0.05798945300584471
+    },
+    {
+     "etiqueta": "2",
+     "valor": 2,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 2
+     },
+     "error": 0.6592070541024556,
+     "errorSd": 0.15542038297620564,
+     "absorcion": 0.875,
+     "ruidoY": 0.26539105197894186
+    },
+    {
+     "etiqueta": "3",
+     "valor": 3,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 3
+     },
+     "error": 0.7133577881606882,
+     "errorSd": 0.036538510424887316,
+     "absorcion": 1,
+     "ruidoY": null
+    },
+    {
+     "etiqueta": "5",
+     "valor": 5,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 5
+     },
+     "error": 0.7327664901333171,
+     "errorSd": 0.0023268072517148757,
+     "absorcion": 1,
+     "ruidoY": null
+    },
+    {
+     "etiqueta": "10",
+     "valor": 10,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 10
+     },
+     "error": 0.6850988582441457,
+     "errorSd": 0.11426102997400427,
+     "absorcion": 1,
+     "ruidoY": null
+    },
+    {
+     "etiqueta": "30",
+     "valor": 30,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 30
+     },
+     "error": 0.4877984477354399,
+     "errorSd": 0.12670621034980878,
+     "absorcion": 1,
+     "ruidoY": null
+    }
+   ]
+  },
+  {
+   "id": "articulo",
+   "titulo": "Muy pocos consumidores activos (la coexistencia del artículo)",
+   "escenario": "articulo",
+   "nivel": "productores · consumidores",
+   "T": 15,
+   "puntos": [
+    {
+     "etiqueta": "120 · 600",
+     "valor": 120,
+     "ajustes": {
+      "productores": 120,
+      "consumidores": 600
+     },
+     "error": 0.12604257796444793,
+     "errorSd": 0.20571524481678008,
+     "absorcion": 0.875,
+     "ruidoY": 0.023615845407635002
+    },
+    {
+     "etiqueta": "240 · 1200",
+     "valor": 240,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.044441899119576786,
+     "errorSd": 0.02205021011009298,
+     "absorcion": 0.375,
+     "ruidoY": 0.023178890884179126
+    },
+    {
+     "etiqueta": "480 · 2400",
+     "valor": 480,
+     "ajustes": {
+      "productores": 480,
+      "consumidores": 2400
+     },
+     "error": 0.029911008931745153,
+     "errorSd": 0.020165192417801625,
+     "absorcion": 0.125,
+     "ruidoY": 0.018178667632876018
+    }
+   ]
+  },
+  {
+   "id": "revision",
+   "titulo": "Todos deciden a la vez",
+   "escenario": "coexistencia",
+   "nivel": "agentes que revisan por ronda",
+   "T": 20,
+   "puntos": [
+    {
+     "etiqueta": "100 %",
+     "valor": 1,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "revision": 1
+     },
+     "error": 0.08181344332926162,
+     "errorSd": 0.02782081617338925,
+     "absorcion": 0,
+     "ruidoY": 0.06529291413645961
+    },
+    {
+     "etiqueta": "50 %",
+     "valor": 0.5,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "revision": 0.5
+     },
+     "error": 0.058297604148705245,
+     "errorSd": 0.018648430968684102,
+     "absorcion": 0,
+     "ruidoY": 0.029476955305889525
+    },
+    {
+     "etiqueta": "25 %",
+     "valor": 0.25,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "revision": 0.25
+     },
+     "error": 0.07495799380110056,
+     "errorSd": 0.04408477141819951,
+     "absorcion": 0,
+     "ruidoY": 0.04156865766197117
+    }
+   ]
+  },
+  {
+   "id": "percepcion",
+   "titulo": "Errores al distinguir la calidad",
+   "escenario": "coexistencia",
+   "nivel": "errores de los activos",
+   "T": 30,
+   "puntos": [
+    {
+     "etiqueta": "0 %",
+     "valor": 0,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "ruidoPercepcion": 0
+     },
+     "error": 0.0735815725132239,
+     "errorSd": 0.023815065172062125,
+     "absorcion": 0,
+     "ruidoY": 0.05798945300584471
+    },
+    {
+     "etiqueta": "10 %",
+     "valor": 0.1,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "ruidoPercepcion": 0.1
+     },
+     "error": 0.15448674384643524,
+     "errorSd": 0.2302440968070339,
+     "absorcion": 0.125,
+     "ruidoY": 0.04443413244346832
+    },
+    {
+     "etiqueta": "20 %",
+     "valor": 0.2,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "ruidoPercepcion": 0.2
+     },
+     "error": 0.17461996307143654,
+     "errorSd": 0.22321160120230568,
+     "absorcion": 0.125,
+     "ruidoY": 0.03830118157916103
+    },
+    {
+     "etiqueta": "30 %",
+     "valor": 0.3,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "ruidoPercepcion": 0.3
+     },
+     "error": 0.1458281181588162,
+     "errorSd": 0.0048359504272780345,
+     "absorcion": 0,
+     "ruidoY": 0.03914906405104391
+    },
+    {
+     "etiqueta": "50 %",
+     "valor": 0.5,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "ruidoPercepcion": 0.5
+     },
+     "error": 0.7607327387989041,
+     "errorSd": 0.004762160504415033,
+     "absorcion": 1,
+     "ruidoY": null
+    }
+   ]
+  },
+  {
+   "id": "oscilacion",
+   "titulo": "Oscilaciones que el azar mantiene vivas",
+   "escenario": "coexistencia",
+   "nivel": "productores · consumidores",
+   "T": 40,
+   "inicio": [
+    0.7333333333333334,
+    0.3055555555555556
+   ],
+   "puntos": [
+    {
+     "etiqueta": "60 · 300",
+     "valor": 60,
+     "ajustes": {
+      "productores": 60,
+      "consumidores": 300
+     },
+     "error": 0.09524100508470464,
+     "errorSd": 0.024638842164947543,
+     "absorcion": 0,
+     "ruidoY": 0.09935966358476027
+    },
+    {
+     "etiqueta": "120 · 600",
+     "valor": 120,
+     "ajustes": {
+      "productores": 120,
+      "consumidores": 600
+     },
+     "error": 0.06000125286350025,
+     "errorSd": 0.012873123824628432,
+     "absorcion": 0,
+     "ruidoY": 0.06452320786594605
+    },
+    {
+     "etiqueta": "240 · 1200",
+     "valor": 240,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.0421001687722226,
+     "errorSd": 0.007121322039565939,
+     "absorcion": 0,
+     "ruidoY": 0.04275014598211661
+    },
+    {
+     "etiqueta": "480 · 2400",
+     "valor": 480,
+     "ajustes": {
+      "productores": 480,
+      "consumidores": 2400
+     },
+     "error": 0.022126493221595298,
+     "errorSd": 0.0043699109612299215,
+     "absorcion": 0,
+     "ruidoY": 0.021168872249579872
+    },
+    {
+     "etiqueta": "960 · 4800",
+     "valor": 960,
+     "ajustes": {
+      "productores": 960,
+      "consumidores": 4800
+     },
+     "error": 0.011128042385036181,
+     "errorSd": 0.002426598289663078,
+     "absorcion": 0,
+     "ruidoY": 0.011572141257644566
+    }
+   ]
+  },
+  {
+   "id": "borde",
+   "titulo": "Trayectorias que rozan los bordes",
+   "escenario": "coexistencia",
+   "nivel": "y mínimo de la trayectoria teórica",
+   "T": 15,
+   "puntos": [
+    {
+     "etiqueta": "(0.55, 0.25)",
+     "valor": 0.1242940647797966,
+     "x0": 0.55,
+     "y0": 0.25,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.06195365882713208,
+     "errorSd": 0.021240190522146245,
+     "absorcion": 0,
+     "ruidoY": 0.06171629275642596
+    },
+    {
+     "etiqueta": "(0.6, 0.5)",
+     "valor": 0.11625582707937877,
+     "x0": 0.6,
+     "y0": 0.5,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.0683251721125655,
+     "errorSd": 0.014535450181290956,
+     "absorcion": 0,
+     "ruidoY": 0.05784013565940918
+    },
+    {
+     "etiqueta": "(0.85, 0.45)",
+     "valor": 0.0898855449372042,
+     "x0": 0.85,
+     "y0": 0.45,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.06392699137297812,
+     "errorSd": 0.029150758248255432,
+     "absorcion": 0,
+     "ruidoY": 0.06142272947245468
+    },
+    {
+     "etiqueta": "(0.45, 0.6)",
+     "valor": 0.04025567251793331,
+     "x0": 0.45,
+     "y0": 0.6,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.08947753359827117,
+     "errorSd": 0.028600365050271883,
+     "absorcion": 0,
+     "ruidoY": 0.08021222802875892
+    },
+    {
+     "etiqueta": "(0.9, 0.3)",
+     "valor": 0.032220213575424615,
+     "x0": 0.9,
+     "y0": 0.3,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200
+     },
+     "error": 0.07609065543288157,
+     "errorSd": 0.03256067409011153,
+     "absorcion": 0,
+     "ruidoY": 0.06459810941610925
+    }
+   ]
+  },
+  {
+   "id": "pasion",
+   "titulo": "Pasión por crear",
+   "nivel": "pasión media (en unidades de c_H)",
+   "T": 30,
+   "series": [
+    {
+     "escenario": "colapso",
+     "nombre": "colapso (la teoría predice extinción)",
+     "extra": {},
+     "puntos": [
+      {
+       "etiqueta": "0",
+       "valor": 0,
+       "viva": 0,
+       "x": 0,
+       "y": 0,
+       "piso": 0,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "pasion": 0
+       }
+      },
+      {
+       "etiqueta": "0.25",
+       "valor": 0.25,
+       "viva": 0,
+       "x": 0,
+       "y": 0,
+       "piso": 0.01831563888873418,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "pasion": 0.25
+       }
+      },
+      {
+       "etiqueta": "0.5",
+       "valor": 0.5,
+       "viva": 0.625,
+       "x": 0.0171875,
+       "y": 0,
+       "piso": 0.1353352832366127,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "pasion": 0.5
+       }
+      },
+      {
+       "etiqueta": "0.75",
+       "valor": 0.75,
+       "viva": 1,
+       "x": 0.17135416666666667,
+       "y": 0,
+       "piso": 0.26359713811572677,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "pasion": 0.75
+       }
+      },
+      {
+       "etiqueta": "1",
+       "valor": 1,
+       "viva": 1,
+       "x": 0.39374999999999993,
+       "y": 0,
+       "piso": 0.36787944117144233,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "pasion": 1
+       }
+      },
+      {
+       "etiqueta": "1.5",
+       "valor": 1.5,
+       "viva": 1,
+       "x": 0.6348958333333333,
+       "y": 0,
+       "piso": 0.513417119032592,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "pasion": 1.5
+       }
+      }
+     ]
+    },
+    {
+     "escenario": "coexistencia",
+     "nombre": "coexistencia con 3 rondas de memoria",
+     "extra": {
+      "memoria": 3
+     },
+     "puntos": [
+      {
+       "etiqueta": "0",
+       "valor": 0,
+       "viva": 0,
+       "x": 0,
+       "y": 0,
+       "piso": 0,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "memoria": 3,
+        "pasion": 0
+       }
+      },
+      {
+       "etiqueta": "0.25",
+       "valor": 0.25,
+       "viva": 1,
+       "x": 0.01614583333333333,
+       "y": 0,
+       "piso": 0.01831563888873418,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "memoria": 3,
+        "pasion": 0.25
+       }
+      },
+      {
+       "etiqueta": "0.5",
+       "valor": 0.5,
+       "viva": 1,
+       "x": 0.12552083333333336,
+       "y": 0,
+       "piso": 0.1353352832366127,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "memoria": 3,
+        "pasion": 0.5
+       }
+      },
+      {
+       "etiqueta": "0.75",
+       "valor": 0.75,
+       "viva": 1,
+       "x": 0.259375,
+       "y": 0,
+       "piso": 0.26359713811572677,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "memoria": 3,
+        "pasion": 0.75
+       }
+      },
+      {
+       "etiqueta": "1",
+       "valor": 1,
+       "viva": 1,
+       "x": 0.3427083333333333,
+       "y": 0,
+       "piso": 0.36787944117144233,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "memoria": 3,
+        "pasion": 1
+       }
+      },
+      {
+       "etiqueta": "1.5",
+       "valor": 1.5,
+       "viva": 1,
+       "x": 0.5135416666666667,
+       "y": 0,
+       "piso": 0.513417119032592,
+       "ajustes": {
+        "productores": 240,
+        "consumidores": 1200,
+        "memoria": 3,
+        "pasion": 1.5
+       }
+      }
+     ]
+    },
+    {
+     "escenario": "coexistencia",
+     "nombre": "coexistencia con 30 · 150 agentes",
+     "extra": {
+      "productores": 30,
+      "consumidores": 150
+     },
+     "puntos": [
+      {
+       "etiqueta": "0",
+       "valor": 0,
+       "viva": 0.25,
+       "x": 0.16666666666666669,
+       "y": 0.07083333333333333,
+       "piso": 0,
+       "ajustes": {
+        "productores": 30,
+        "consumidores": 150,
+        "pasion": 0
+       }
+      },
+      {
+       "etiqueta": "0.25",
+       "valor": 0.25,
+       "viva": 0.375,
+       "x": 0.09166666666666667,
+       "y": 0,
+       "piso": 0.01831563888873418,
+       "ajustes": {
+        "productores": 30,
+        "consumidores": 150,
+        "pasion": 0.25
+       }
+      },
+      {
+       "etiqueta": "0.5",
+       "valor": 0.5,
+       "viva": 0.875,
+       "x": 0.075,
+       "y": 0,
+       "piso": 0.1353352832366127,
+       "ajustes": {
+        "productores": 30,
+        "consumidores": 150,
+        "pasion": 0.5
+       }
+      },
+      {
+       "etiqueta": "0.75",
+       "valor": 0.75,
+       "viva": 1,
+       "x": 0.29583333333333334,
+       "y": 0,
+       "piso": 0.26359713811572677,
+       "ajustes": {
+        "productores": 30,
+        "consumidores": 150,
+        "pasion": 0.75
+       }
+      },
+      {
+       "etiqueta": "1",
+       "valor": 1,
+       "viva": 1,
+       "x": 0.3125,
+       "y": 0,
+       "piso": 0.36787944117144233,
+       "ajustes": {
+        "productores": 30,
+        "consumidores": 150,
+        "pasion": 1
+       }
+      },
+      {
+       "etiqueta": "1.5",
+       "valor": 1.5,
+       "viva": 1,
+       "x": 0.5625,
+       "y": 0,
+       "piso": 0.513417119032592,
+       "ajustes": {
+        "productores": 30,
+        "consumidores": 150,
+        "pasion": 1.5
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "semillas": 8,
+ "fecha": "2026-11-24",
+ "referencias": [
+  {
+   "escenario": "frontera",
+   "error": 0.004657102294263217,
+   "errorSd": 0.0007515049974295512,
+   "absorcion": 0,
+   "ruidoY": 0
+  },
+  {
+   "escenario": "colapso",
+   "error": 0.005012290897305944,
+   "errorSd": 0.0040821161520032566,
+   "absorcion": 0,
+   "ruidoY": 0
+  },
+  {
+   "escenario": "coexistencia",
+   "error": 0.0735815725132239,
+   "errorSd": 0.023815065172062125,
+   "absorcion": 0,
+   "ruidoY": 0.05798945300584471
+  }
+ ]
+}

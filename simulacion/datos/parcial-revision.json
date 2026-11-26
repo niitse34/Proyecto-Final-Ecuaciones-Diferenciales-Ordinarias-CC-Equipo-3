@@ -1,0 +1,54 @@
+{
+ "semillas": 8,
+ "fecha": "2026-11-24",
+ "factores": [
+  {
+   "id": "revision",
+   "titulo": "Todos deciden a la vez",
+   "escenario": "coexistencia",
+   "nivel": "agentes que revisan por ronda",
+   "T": 20,
+   "puntos": [
+    {
+     "etiqueta": "100 %",
+     "valor": 1,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "revision": 1
+     },
+     "error": 0.08181344332926162,
+     "errorSd": 0.02782081617338925,
+     "absorcion": 0,
+     "ruidoY": 0.06529291413645961
+    },
+    {
+     "etiqueta": "50 %",
+     "valor": 0.5,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "revision": 0.5
+     },
+     "error": 0.058297604148705245,
+     "errorSd": 0.018648430968684102,
+     "absorcion": 0,
+     "ruidoY": 0.029476955305889525
+    },
+    {
+     "etiqueta": "25 %",
+     "valor": 0.25,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "revision": 0.25
+     },
+     "error": 0.07495799380110056,
+     "errorSd": 0.04408477141819951,
+     "absorcion": 0,
+     "ruidoY": 0.04156865766197117
+    }
+   ]
+  }
+ ]
+}

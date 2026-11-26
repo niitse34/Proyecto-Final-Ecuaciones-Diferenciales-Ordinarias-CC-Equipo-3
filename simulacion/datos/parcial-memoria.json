@@ -1,0 +1,93 @@
+{
+ "semillas": 8,
+ "fecha": "2026-11-24",
+ "factores": [
+  {
+   "id": "memoria",
+   "titulo": "Información con retraso",
+   "escenario": "coexistencia",
+   "nivel": "rondas de memoria",
+   "T": 30,
+   "puntos": [
+    {
+     "etiqueta": "1",
+     "valor": 1,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 1
+     },
+     "error": 0.0735815725132239,
+     "errorSd": 0.023815065172062125,
+     "absorcion": 0,
+     "ruidoY": 0.05798945300584471
+    },
+    {
+     "etiqueta": "2",
+     "valor": 2,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 2
+     },
+     "error": 0.6592070541024556,
+     "errorSd": 0.15542038297620564,
+     "absorcion": 0.875,
+     "ruidoY": 0.26539105197894186
+    },
+    {
+     "etiqueta": "3",
+     "valor": 3,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 3
+     },
+     "error": 0.7133577881606882,
+     "errorSd": 0.036538510424887316,
+     "absorcion": 1,
+     "ruidoY": null
+    },
+    {
+     "etiqueta": "5",
+     "valor": 5,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 5
+     },
+     "error": 0.7327664901333171,
+     "errorSd": 0.0023268072517148757,
+     "absorcion": 1,
+     "ruidoY": null
+    },
+    {
+     "etiqueta": "10",
+     "valor": 10,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 10
+     },
+     "error": 0.6850988582441457,
+     "errorSd": 0.11426102997400427,
+     "absorcion": 1,
+     "ruidoY": null
+    },
+    {
+     "etiqueta": "30",
+     "valor": 30,
+     "ajustes": {
+      "productores": 240,
+      "consumidores": 1200,
+      "memoria": 30
+     },
+     "error": 0.4877984477354399,
+     "errorSd": 0.12670621034980878,
+     "absorcion": 1,
+     "ruidoY": null
+    }
+   ]
+  }
+ ]
+}
