@@ -1,6 +1,0 @@
-# Dependencias del proyecto
-numpy>=1.26
-Pillow>=10.0
-
-# Solo para desarrollo (tests y CI)
-pytest>=8.0

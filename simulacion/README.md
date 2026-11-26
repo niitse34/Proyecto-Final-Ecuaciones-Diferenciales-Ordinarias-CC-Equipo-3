@@ -29,4 +29,3 @@ Lo que hace que la simulación y la teoría se separen está medido en `DISCREPA
 - `js/modelo.js` agentes · `js/trabajador.js` hilo que los simula · `js/teoria.js` EDO · `js/app.js` interfaz · `js/informe.js` vista de factores
 - `node medir_todo.mjs 8 <factor>` mide un factor; `node unir_datos.mjs` une; `node generar_discrepancias.mjs` regenera el documento
 - `node construir.mjs` regenera `dist/simulacion.html`
-- `node experimentos.mjs` repite las mediciones de discrepancias

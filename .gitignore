@@ -26,3 +26,8 @@ desktop.ini
 # Salidas locales de pruebas
 salidas/
 *.log
+
+# Salidas regenerables
+informe/codigo/figuras/
+*.npz
+node_modules/
